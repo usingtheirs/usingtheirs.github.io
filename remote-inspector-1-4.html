@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Chrome, Firefox OS and Opera Status Bar Color -->
+<meta name="theme-color" content="#FFFFFF">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
+<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/notablog.css">
+<!-- Favicon -->
+
+  <link rel="shortcut icon" href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4a248536-03ca-4602-873f-731772bd36c0%2FUsingTheirs.Logo.Check.png?table=collection&amp;id=e5727b6a-bb14-4d4e-9297-852a934e19d9">
+
+<style>
+  :root {
+    font-size: 20px;
+  }
+</style>
+  <title>Remote Inspector 1.4&nbsp;|&nbsp;USING THEIRS</title>
+  <meta property="og:type" content="blog">
+  <meta property="og:title" content="Remote Inspector 1.4">
+  
+  
+  <style>
+    .DateTagBar {
+      margin-top: 1.0rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="Navbar">
+  <a href="index.html">
+    <div class="Navbar__Btn">
+      
+        <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4a248536-03ca-4602-873f-731772bd36c0%2FUsingTheirs.Logo.Check.png?table=collection&amp;id=e5727b6a-bb14-4d4e-9297-852a934e19d9"></span>&nbsp;
+      
+      <span>Home</span>
+    </div>
+  </a>
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="remote-inspector.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ffa92f9ec-711d-46ea-b8b8-aa0631db067d%2FIcon.160x160.png?table=block&amp;id=163c0dc3-713d-45eb-9354-add8af47fa1e"></span>&nbsp;
+          
+          <span>REMOTE INSPECTOR</span>
+        </div>
+      </a>
+    
+  
+    
+  
+</nav>
+  <header class="Header">
+    
+    <div class="Header__Spacer Header__Spacer--NoCover">
+    </div>
+    
+    <h1 class="Header__Title">Remote Inspector 1.4</h1>
+    
+      <div class="DateTagBar">
+        
+        
+          <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--pink">
+            <a href="tag/remote-inspector.html">remote-inspector</a>
+          </span>
+        
+      </div>
+    
+  </header>
+  <article id="https://www.notion.so/ffcdbe51686945c29dd8a2115c91bc01" class="PageRoot"><div id="https://www.notion.so/4e6f4172854a4e619248ea1c08b6a0c3" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">Using Theirs are making tools for efficient game development. When we started Remote Inspector, we chose the HTTP/JSON protocol for fast development. And now, we decided to replace it with a more efficient binary protocol.</span></span></p></div><div id="https://www.notion.so/804cd69ebe794445ac6fd11791af4ef2" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">We tested 3 open source libraries – Bois, msgpack-cli and ZeroFormatter.And the following chart shows the response time of refreshing the Example scene. We tested 3 scenarios – Example Scene, Example Scene + 1000 GameObjects and Example Scene + 10000 GameObjects. 3 libraries showed similar performance.</span></span></p></div><div id="https://www.notion.so/c481c994a47742dcbe76b86a640e9f5a" class="Image Image--PageWidth"><figure><a href="#"><img src="#" style="width:100%"/></a><figcaption><span class="SemanticStringArray"></span></figcaption></figure></div><div id="https://www.notion.so/0afb7314e79f4d28954992e824c3c54f" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString"><em class="SemanticString__Fragment SemanticString__Fragment--Italic">Response Time of Refreshing Scene. MacBook Pro 2013 and iPhone 11 Pro Max.</em></span></span></p></div><div id="https://www.notion.so/fcba184040ed4337b0bfc35dd70e30cd" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">In addition, we tested with a real project. And this time ZeroFormatter showed the best performance. It was faster more than 2 times!</span></span></p></div><div id="https://www.notion.so/a9f3c0858d404cbd87424a540ee6f51f" class="Image Image--PageWidth"><figure><a href="#"><img src="#" style="width:100%"/></a><figcaption><span class="SemanticStringArray"></span></figcaption></figure></div><div id="https://www.notion.so/bfd8f5893cb249e79f13205b35df3491" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString"><em class="SemanticString__Fragment SemanticString__Fragment--Italic">Response Time of Refresh Scene. PC and Galaxy S9.</em></span></span></p></div><div id="https://www.notion.so/caf0448346ed4c0d906d50dbb4372b22" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">So we decided to replace JSON with ZeroFormatter. We hope this provides our clients with a better experience.</span></span></p></div><div id="https://www.notion.so/5df8775cbb5643d08b53f6a1cccd0054" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">During this, we refactored our codebase drastically and packed the source code in DLLs. There are several reasons we took this approach:</span></span></p></div><ul class="BulletedListWrapper"><li id="https://www.notion.so/612527ccadc34ec88aea8aa61d100109" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">To prevent the 3rd-party library (like ZeroFormmatter) from conflicting with the clients’ libraries</span></span></li><li id="https://www.notion.so/23a71b8f415d4c8fa50ff93a7e5c2c3c" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">To prevent out common utilities from conflicting between our products</span></span></li><li id="https://www.notion.so/8d8f25fccf6a42d4aa0f0c5a27f9850b" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">To make use of the new C# version regardless of the clients’ Unity versions</span></span></li><li id="https://www.notion.so/dd5a624dc1c44e7f88b7c4952dfb0718" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">To add Pro features by using conditional compilation. We think this is more efficient than using multiple branches in our case.</span></span></li></ul><div id="https://www.notion.so/64ec15c87b334af18f576aca40307470" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">You can still access the source code of Remote Inspector (Pro) by using .Net decompilers such as </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://www.jetbrains.com/decompiler/">JetBrains’s dotPeek</a></span><span class="SemanticString">. We didn’t obfuscate the Dlls and provide debugging symbols.</span></span></p></div><div id="https://www.notion.so/e14cc16747244fc0ae2d35192f6ac90d" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">We can develop Remote Inspector fast by this refactoring. We will continue to add lots of good features.</span></span></p></div></article>
+  <footer class="Footer">
+  <div>&copy; USING THEIRS 2019-2021</div>
+  <div>&centerdot;</div>
+  <div>Powered by <a href="https://github.com/dragonman225/notablog" target="_blank"
+      rel="noopener noreferrer">Notablog</a>.
+  </div>
+</footer>
+</body>
+
+</html>
